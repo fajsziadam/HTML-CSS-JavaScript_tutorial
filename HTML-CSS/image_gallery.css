@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:hsl(188, 100%, 94%);
+    box-sizing: border-box;
+}
+
+body{
+
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+    font-size: 90px;
+    padding-bottom: 30px;
+    color: hsla(180, 69%, 34%, 0.651);
+}
+
+.gallery{
+    display: inline-block;
+    padding: 8px;
+}
+
+.gallery img{
+    width: 375px;
+    height: 275px;
+    border-radius: 0.7rem;
+    transition: 0.5s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    filter: grayscale(75%);
+    cursor:pointer
+  }
+
+

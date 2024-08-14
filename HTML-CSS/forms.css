@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    min-height: 100%;
+    height: auto;    
+    }
+
+body{
+    text-align: center;
+    background-image: linear-gradient(45deg, hsla(115, 79%, 47%, 0.911), hsla(204, 77%, 47%, 0.945));
+}
+
+h1{
+    margin-top: 50px;    
+}
+
+#form{ 
+    background-color: hsla(202, 100%, 50%, 0.87);
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px ;
+    text-align: left;
+    font-size: 20px;
+}
+
+#form-controll input{
+    width: 100%;
+    font-size: 15px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+#submit{
+    background-image: linear-gradient(45deg,hsla(0, 72%, 40%, 0.945), hsla(71, 79%, 47%, 0.911));
+    width: 80%;
+    font-size: 25px;
+    border-radius: 4px;
+    margin-left: 10%;
+}

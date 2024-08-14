@@ -1,0 +1,31 @@
+body{
+    background-color: #545454;
+    border: 3px solid;
+    display: flow-root;
+}
+#p1{
+    color: tomato; 
+}
+#p2{
+    color: rgb(102, 222, 255)/*rgb values*/
+}
+#p3{
+    color: #59ff5f;/*hexadecimal*/
+}
+#p4{
+    color: hsl(281, 100%, 61%);/*hsl value*/
+}
+h1{
+    float: left;
+    color: lightgray;
+    font-size: 100px;
+    text-shadow: 5px 5px 5px lightcoral, -5px -5px 5px lightblue;
+}
+#img1{
+    float: left;
+    margin: 10px;
+}
+#img2{
+    float: right;
+    margin-right: 100px;
+}

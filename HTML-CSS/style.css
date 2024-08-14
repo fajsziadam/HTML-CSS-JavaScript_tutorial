@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color:white
+}
+.odd{
+    color: orange;
+}
+.even{
+    color: green;
+}
+button{
+    font-size: large;
+    border-radius: 15px;
+    background-color: gray;
+    color: greenyellow;
+    border-color: greenyellow;
+}

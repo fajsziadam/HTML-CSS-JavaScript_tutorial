@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register from</title>
+    <link rel="stylesheet" href="forms.css">
+    <link rel="icon" href="">
+
+</head>
+<body>
+
+    <h1>Registration form</h1>
+
+    <form action="index.php" method="POST" enctype="multipart/form-data" id="form">
+
+    <div id="form-controll">
+        <label for="username" id="username">Username:</label><br>
+        <input type="text"  id="username"  placeholder="Username" required>
+    </div><br>
+
+
+    <div id="form-controll">
+        <label for="password">Password:</label><br>
+        <input type="password"  id="password" placeholder="Password" required><br>
+    </div><br>
+
+    <div id="form-controll">
+        <label for="re-password">Password:</label><br>
+        <input type="password"  id="re-password" placeholder="Repeate your password" required><br>
+    </div><br>
+
+    <div id="form-controll">
+        <label for="email" >Email:</label><br>
+        <input type="email"  id="email" placeholder="Your Email" required><br>
+    </div><br>
+
+    <div id="form-controll">
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" min="1" max="111" value="1" required>
+    </div><br>
+
+
+        <input type="submit" id="submit" value="Register">
+
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+@font-face{
+    src: url(google_fonts/Roboto-Black.ttf);
+    font-family: Roboto-Black;
+}
+
+h1{
+    font-family: Roboto-Black, Verdana, arial;
+}
+#p1{
+    font-family: "lucida console", "courier new";
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
+}
+#p2{
+    .roboto-light {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+}

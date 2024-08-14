@@ -1,0 +1,20 @@
+h1{
+    border-style: dashed;
+    border-width: 3px;
+    border-color: hsl(239, 48%, 36%);
+    border-radius: 10px;
+}
+
+#p1{
+    font-size: large;
+    border: 3px dotted rgb(100, 100, 100);
+    border-radius: 20px;
+}
+
+#p2{
+    border-bottom: 2px solid rgb(28, 244, 28);
+    border-top: 3px groove rgb(255, 255, 35);
+    border-left: 4px dotted rgb(255, 179, 37);
+    border-right: 1px dashed rgb(255, 0, 255);
+    border-radius: 5px;
+}

@@ -1,0 +1,57 @@
+a:link{
+    color: aquamarine;
+}
+a:hover{
+    color: blueviolet;
+    font-size: 1.2em;
+}
+a:active{
+    font-size: 1.2em;
+    color: blue;
+}
+a:visited{
+    color: green;
+}
+
+li:nth-child(odd){
+    background-color: aquamarine;
+}
+li:nth-child(even){
+    background-color: coral;
+}
+
+li:hover{
+    background-color: green(235, 235, 45, 0.87);
+    font-size: 1.3em;
+}
+
+#greeting p{
+    background-color: hsl(240, 100%, 70%);
+    padding: 10px;
+    display: none;
+    font-size: 40px;
+    position: relative;
+    left: -25%
+}
+
+#greeting img{
+    display: none;
+    position: relative;
+    left: -25%
+
+}
+
+#greeting{
+    position: relative;
+    left: 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#greeting:hover p{
+    display: block;
+}
+
+#greeting:hover img{
+    display: block;
+}

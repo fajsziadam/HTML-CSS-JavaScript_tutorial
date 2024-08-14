@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,rgb(153, 155, 255), rgb(44, 44, 88));
+    text-align: center;
+
+}
+
+.icons{
+    text-align: center;
+
+}
+
+.icons i{
+    margin-right: 30px;
+}
+
+.fa-solid.fa-house.fa-5x{
+    color: hsl(204, 78%, 46%);
+
+}
+.icons a{
+    text-decoration: none;
+}
+
+.fa-brands.fa-github.fa-5x{
+    color: rgb(0, 0, 109);
+}
+.fa-brands.fa-facebook.fa-5x{
+    color: blue;
+}
+.fa-solid.fa-cat.fa-5x{
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, rgb(0, 146, 172), rgb(68, 0, 255));
+}
+
+.fa-solid.fa-house.fa-5x:hover{
+    color: hsl(204, 78%, 56%);
+
+}
+.fa-brands.fa-github.fa-5x:hover{
+    color: hsl(240, 100%, 31%);
+}
+.fa-brands.fa-facebook.fa-5x:hover{
+    color: hsl(240, 100%, 60%);
+}
+.fa-solid.fa-cat.fa-5x:hover{
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, hsl(189, 100%, 44%), hsl(256, 100%, 60%));
+}
+
+h1{
+    display: inline-block;
+    text-align: center;
+    color: hsl(244, 100%, 22%);
+    margin-bottom: 40px;
+
+}
+
+h1:hover{
+    color: hsl(244, 100%, 37%);
+    margin-bottom: 40px;
+}

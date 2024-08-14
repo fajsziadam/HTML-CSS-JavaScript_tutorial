@@ -1,0 +1,30 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: hsl(60, 97%, 70%);
+}
+p::selection{
+    color: rgb(89, 255, 71);
+    background-color: hsl(0, 0%, 21%);
+}
+#fruit li::before{
+    content: "\2713";
+}
+#apple::after{
+    content: "\5555";
+}
+#orange::after{
+    content: "\88881";
+}
+#banana::after{
+    content: "\1034";
+}
+#fruit li::marker{
+    content: "\2713";
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+
+}

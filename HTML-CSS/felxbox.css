@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 100px;
+}
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: coral;
+    align-self: center;
+}
+#box2{
+    background-color: yellow;
+    align-self: end;
+}
+#box3{
+    background-color: greenyellow;
+    order: -1;
+}
+#box4{
+    background-color: lightskyblue;
+}
