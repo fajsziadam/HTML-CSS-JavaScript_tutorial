@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+</head>
+<body>
+    <h1>This is page #1</h1>
+    <a href="buttons2.html">
+    <button style="font: size 25px; background-color:gray; color:lightblue; border-radius:5px">Click me!</button>
+    </a>
+    <br>
+    <br>
+
+    <button onclick="doSomething()" style="font: size 25px; background-color:gray; color:lightblue; border-radius:5px">Click me!</button>
+  
+    <p id="greeting">Hello</p>
+
+    <script>
+        function doSomething(){
+            document.getElementById("greeting").innerHTML = "Good bye"
+        }
+    </script>
+
+</body>
+</html>
