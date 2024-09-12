@@ -82,7 +82,7 @@ class Person{
     }
 
     set age(newAge){
-        if(newAge >= 0){
+        if(typeof newAge === "number" && newAge >= 0){
             this._age = newAge;
         }else{
             console.error("Age must be a non-negative number!")
