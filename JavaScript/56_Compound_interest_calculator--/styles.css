@@ -1,0 +1,73 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#h1Id{
+    text-align: center;
+    color: hsl(0, 0%, 0%);
+    font-size: 2.8em;
+}
+
+#divCal{
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    max-width: 350px;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 1%, 0.753);
+}
+
+label{
+    text-align: center;
+}
+
+#calculateBtn{
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(240, 100%, 71%);
+    font-size: 1.3em;
+    color: hsl(208, 100%, 94%);
+    cursor: pointer;
+    padding: 7.5px 10px;
+}
+
+#calculateBtn:hover{
+    background-color: hsl(240, 100%,67%);
+
+}
+
+#labelsId{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+input{
+    text-align: center;
+    width: 50%;
+    color: #000000;
+    font-size: 1.1em;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#pId{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#spanTotal{
+    color: hsl(133, 85%, 33%);
+}
