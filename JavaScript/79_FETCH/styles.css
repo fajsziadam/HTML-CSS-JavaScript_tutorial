@@ -1,0 +1,11 @@
+body{
+    background-color: aliceblue;
+}
+
+p{
+    padding: 10px;
+}
+
+#logoImg{
+    width: 300px;
+}
